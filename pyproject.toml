@@ -8,7 +8,7 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name="pymilvus"
+name="pymilvus2"
 authors = [
   {name='Milvus Team', email="milvus-team@zilliz.com"},
 ]
@@ -35,7 +35,7 @@ classifiers=[
 dynamic = ["version"]
 
 [project.urls]
-"repository" = 'https://github.com/milvus-io/pymilvus'
+"repository" = 'https://github.com/mkotsalainen/pymilvus2'
 
 [tool.setuptools_scm]
 'local_scheme'= 'no-local-version'
@@ -132,7 +132,7 @@ exclude = [
     "venv",
     "grpc_gen",
     "__pycache__",
-    "pymilvus/client/stub.py"
+    "pymilvus2/client/stub.py"
 ]
 
 # Same as Black.
